@@ -1,0 +1,6 @@
+framework module Pods_ForDiscovery2_0_ForDiscovery2_0UITests {
+  umbrella header "Pods-ForDiscovery2.0-ForDiscovery2.0UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
