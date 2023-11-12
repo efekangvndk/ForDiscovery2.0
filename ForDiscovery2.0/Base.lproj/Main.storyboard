@@ -22,7 +22,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="125.95419847328243" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="123" y="-51"/>
         </scene>
         <!--SignUPVC View Controller-->
         <scene sceneID="mjZ-W2-Lnp">
@@ -32,30 +32,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xza-rf-ai0" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="272" width="274" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="hll-MJ-y3P"/>
-                                </constraints>
-                                <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.92549020049999997" green="0.79948022037744104" blue="0.68116956451395128" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SIGN-IN (1)" translatesAutoresizingMaskIntoConstraints="NO" id="p21-PL-adn">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="243"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7n6-pP-BCe" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="337" width="274" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7n6-pP-BCe" customClass="IsaoTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="348" width="357" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="unm-y9-0OK"/>
+                                    <constraint firstAttribute="height" constant="31" id="C9g-ZR-IJW"/>
                                 </constraints>
                                 <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -69,10 +52,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password Check:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XkM-xn-NVx" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="398" width="274" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password Check:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XkM-xn-NVx" customClass="IsaoTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="404" width="357" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="eI3-Gf-kTP"/>
+                                    <constraint firstAttribute="height" constant="36" id="5xm-IE-9ms"/>
                                 </constraints>
                                 <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -86,10 +69,10 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User Name:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gy4-vW-0k9" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="460" width="274" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User Name:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gy4-vW-0k9" customClass="IsaoTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="468" width="357" height="34"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="bke-yw-Rgy"/>
+                                    <constraint firstAttribute="height" constant="34" id="jTM-Px-Giy"/>
                                 </constraints>
                                 <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -103,56 +86,78 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Number(Oppsional):" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AKX-NZ-eUF" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="519" width="274" height="34"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="VGf-xA-d5c"/>
-                                </constraints>
-                                <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.92549020049999997" green="0.7994802204" blue="0.68116956449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gA-FD-Vvu">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gA-FD-Vvu" customClass="customButtons" customModule="ForDiscovery2_0" customModuleProvider="target">
                                 <rect key="frame" x="132" y="632" width="128" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="B8D-2o-Lnl"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Save">
                                     <fontDescription key="titleFontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
-                                    <color key="baseForegroundColor" systemColor="systemPinkColor"/>
-                                    <color key="baseBackgroundColor" red="0.52792767396907214" green="0.52792767396907214" blue="0.52792767396907214" alpha="0.88637329931972786" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseForegroundColor" red="0.76862516108247414" green="0.22227393005139146" blue="0.2883204601442329" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.42553962628865982" green="0.42473153409072079" blue="0.42288316801632225" alpha="0.27120535714285715" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ifr-Q9-2iN" customClass="IsaoTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="288" width="357" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="1Wn-Wf-k4B"/>
+                                </constraints>
+                                <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
+                                        <color key="value" red="0.92549020049999997" green="0.7994802204" blue="0.68116956449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
+                                        <color key="value" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Number(Oppsional):" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AKX-NZ-eUF" customClass="IsaoTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="12" y="510" width="357" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="8Yy-Ii-aK9"/>
+                                </constraints>
+                                <color key="textColor" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
+                                        <color key="value" red="0.92549020049999997" green="0.7994802204" blue="0.68116956449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
+                                        <color key="value" red="0.2588235438" green="0.42745098469999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="d0E-Bl-LZC"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="XkM-xn-NVx" firstAttribute="trailing" secondItem="Gy4-vW-0k9" secondAttribute="trailing" id="5M0-VA-YDH"/>
-                            <constraint firstItem="Gy4-vW-0k9" firstAttribute="leading" secondItem="AKX-NZ-eUF" secondAttribute="leading" id="6Xc-dz-oKY"/>
-                            <constraint firstItem="XkM-xn-NVx" firstAttribute="leading" secondItem="Gy4-vW-0k9" secondAttribute="leading" id="7F0-kO-3Xe"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="centerX" secondItem="rcK-3R-tUg" secondAttribute="centerX" id="GBj-ja-3rp"/>
-                            <constraint firstItem="Gy4-vW-0k9" firstAttribute="trailing" secondItem="AKX-NZ-eUF" secondAttribute="trailing" id="GCW-KN-vqL"/>
-                            <constraint firstItem="xza-rf-ai0" firstAttribute="leading" secondItem="rcK-3R-tUg" secondAttribute="leadingMargin" id="UxE-TW-hbU"/>
-                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="bottom" secondItem="AKX-NZ-eUF" secondAttribute="bottom" constant="265" id="VDh-YR-XIb"/>
-                            <constraint firstItem="xza-rf-ai0" firstAttribute="leading" secondItem="7n6-pP-BCe" secondAttribute="leading" id="YT9-7b-0w6"/>
-                            <constraint firstItem="7n6-pP-BCe" firstAttribute="top" secondItem="xza-rf-ai0" secondAttribute="bottom" constant="31" id="aYJ-lM-8vE"/>
-                            <constraint firstItem="AKX-NZ-eUF" firstAttribute="top" secondItem="Gy4-vW-0k9" secondAttribute="bottom" constant="25" id="cpU-KM-KkZ"/>
-                            <constraint firstItem="7n6-pP-BCe" firstAttribute="leading" secondItem="XkM-xn-NVx" secondAttribute="leading" id="d9p-cx-Lim"/>
-                            <constraint firstItem="xza-rf-ai0" firstAttribute="top" secondItem="p21-PL-adn" secondAttribute="bottom" constant="29" id="dpu-u0-SzT"/>
-                            <constraint firstItem="xza-rf-ai0" firstAttribute="trailing" secondItem="7n6-pP-BCe" secondAttribute="trailing" id="hSf-EO-Ki0"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="top" secondItem="rcK-3R-tUg" secondAttribute="topMargin" constant="-59" id="hWB-eO-0sg"/>
-                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="trailing" secondItem="xza-rf-ai0" secondAttribute="trailing" constant="103" id="jeh-QB-R9L"/>
-                            <constraint firstItem="XkM-xn-NVx" firstAttribute="top" secondItem="7n6-pP-BCe" secondAttribute="bottom" constant="27" id="lTJ-Np-C5Q"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" id="lj9-Dj-P2N"/>
-                            <constraint firstItem="Gy4-vW-0k9" firstAttribute="top" secondItem="XkM-xn-NVx" secondAttribute="bottom" constant="28" id="o3r-oO-D1g"/>
-                            <constraint firstItem="7n6-pP-BCe" firstAttribute="trailing" secondItem="XkM-xn-NVx" secondAttribute="trailing" id="oI8-f6-axu"/>
+                            <constraint firstItem="p21-PL-adn" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" id="1t1-ku-LrU"/>
+                            <constraint firstItem="7n6-pP-BCe" firstAttribute="leading" secondItem="XkM-xn-NVx" secondAttribute="leading" id="4Lq-FU-us6"/>
+                            <constraint firstItem="Gy4-vW-0k9" firstAttribute="top" secondItem="XkM-xn-NVx" secondAttribute="bottom" constant="28" id="4xT-QM-epy"/>
+                            <constraint firstItem="1gA-FD-Vvu" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" constant="132" id="5gj-cX-Ph5"/>
+                            <constraint firstItem="AKX-NZ-eUF" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" constant="12" id="5vC-m8-tyh"/>
+                            <constraint firstItem="p21-PL-adn" firstAttribute="centerX" secondItem="1gA-FD-Vvu" secondAttribute="centerX" id="8D7-Hd-1Ef"/>
+                            <constraint firstItem="1gA-FD-Vvu" firstAttribute="top" secondItem="AKX-NZ-eUF" secondAttribute="bottom" constant="81" id="AHh-Zb-7ba"/>
+                            <constraint firstItem="p21-PL-adn" firstAttribute="top" secondItem="rcK-3R-tUg" secondAttribute="topMargin" constant="-59" id="DTo-vG-q2m"/>
+                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="bottom" secondItem="1gA-FD-Vvu" secondAttribute="bottom" constant="147" id="Dbt-GV-soO"/>
+                            <constraint firstItem="Ifr-Q9-2iN" firstAttribute="leading" secondItem="7n6-pP-BCe" secondAttribute="leading" id="K2J-dN-3ia"/>
+                            <constraint firstItem="XkM-xn-NVx" firstAttribute="trailing" secondItem="Gy4-vW-0k9" secondAttribute="trailing" id="KWu-ex-cDs"/>
+                            <constraint firstItem="Ifr-Q9-2iN" firstAttribute="trailing" secondItem="7n6-pP-BCe" secondAttribute="trailing" id="M45-OR-pUn"/>
+                            <constraint firstItem="7n6-pP-BCe" firstAttribute="trailing" secondItem="XkM-xn-NVx" secondAttribute="trailing" id="MOi-e6-MXi"/>
+                            <constraint firstItem="7n6-pP-BCe" firstAttribute="top" secondItem="Ifr-Q9-2iN" secondAttribute="bottom" constant="28" id="OZC-rK-Ks9"/>
+                            <constraint firstItem="XkM-xn-NVx" firstAttribute="top" secondItem="7n6-pP-BCe" secondAttribute="bottom" constant="25" id="WtA-Hw-ELM"/>
+                            <constraint firstItem="XkM-xn-NVx" firstAttribute="leading" secondItem="Gy4-vW-0k9" secondAttribute="leading" id="aNb-mF-B6U"/>
+                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="trailing" secondItem="AKX-NZ-eUF" secondAttribute="trailing" constant="24" id="geF-PL-jU0"/>
+                            <constraint firstItem="1gA-FD-Vvu" firstAttribute="centerX" secondItem="rcK-3R-tUg" secondAttribute="centerX" id="l56-Hw-ytZ"/>
+                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="trailing" secondItem="Ifr-Q9-2iN" secondAttribute="trailing" constant="20" id="mY3-Ym-dG9"/>
+                            <constraint firstItem="AKX-NZ-eUF" firstAttribute="top" secondItem="Gy4-vW-0k9" secondAttribute="bottom" constant="8" id="oED-Zl-wDX"/>
+                            <constraint firstItem="Ifr-Q9-2iN" firstAttribute="leading" secondItem="rcK-3R-tUg" secondAttribute="leadingMargin" id="qeW-sV-aAH"/>
+                            <constraint firstItem="Ifr-Q9-2iN" firstAttribute="top" secondItem="p21-PL-adn" secondAttribute="bottom" constant="45" id="smL-Ow-w42"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -171,20 +176,17 @@
         <designable name="Gy4-vW-0k9">
             <size key="intrinsicContentSize" width="88" height="29.666666666666668"/>
         </designable>
+        <designable name="Ifr-Q9-2iN">
+            <size key="intrinsicContentSize" width="57.333333333333336" height="29.666666666666668"/>
+        </designable>
         <designable name="XkM-xn-NVx">
             <size key="intrinsicContentSize" width="123" height="29.666666666666668"/>
-        </designable>
-        <designable name="xza-rf-ai0">
-            <size key="intrinsicContentSize" width="61" height="29.666666666666668"/>
         </designable>
     </designables>
     <resources>
         <image name="SIGN-IN (1)" width="21600" height="10800"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
