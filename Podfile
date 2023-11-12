@@ -7,7 +7,7 @@ target 'ForDiscovery2.0' do
 
 pod 'Parse'
 
-  # Pods for ForDiscovery2.0
+  pod 'TextFieldEffects'
 
   target 'ForDiscovery2.0Tests' do
     inherit! :search_paths

@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2265185D92FF07CFB12AC5CD /* Pods_ForDiscovery2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8109D8679357C75999A9843A /* Pods_ForDiscovery2_0.framework */; };
 		22F3A6D6595B5EEEB7F0CB39 /* Pods_ForDiscovery2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929547BB2B30F4BA26C21616 /* Pods_ForDiscovery2_0Tests.framework */; };
+		AB9837CE2B005BA500A73F8E /* SignUPVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */; };
 		ABA6BF122AFC600900915D29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF112AFC600900915D29 /* AppDelegate.swift */; };
 		ABA6BF142AFC600900915D29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF132AFC600900915D29 /* SceneDelegate.swift */; };
 		ABA6BF162AFC600900915D29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF152AFC600900915D29 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		8109D8679357C75999A9843A /* Pods_ForDiscovery2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForDiscovery2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		929547BB2B30F4BA26C21616 /* Pods_ForDiscovery2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForDiscovery2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA9A5727E385C368F225377 /* Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-ForDiscovery2.0-ForDiscovery2.0UITests/Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVCViewController.swift; sourceTree = "<group>"; };
 		ABA6BF0E2AFC600900915D29 /* ForDiscovery2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForDiscovery2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA6BF112AFC600900915D29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABA6BF132AFC600900915D29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,8 +113,25 @@
 				D96A49465D118A224612B5D4 /* Pods-ForDiscovery2.0Tests.debug.xcconfig */,
 				CB765870D466FE927D50CE73 /* Pods-ForDiscovery2.0Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AB9837CC2B005B6A00A73F8E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */,
+				ABA6BF152AFC600900915D29 /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		AB9837CF2B005BF100A73F8E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6BF112AFC600900915D29 /* AppDelegate.swift */,
+				ABA6BF132AFC600900915D29 /* SceneDelegate.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		ABA6BF052AFC600900915D29 = {
@@ -140,9 +159,8 @@
 		ABA6BF102AFC600900915D29 /* ForDiscovery2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				ABA6BF112AFC600900915D29 /* AppDelegate.swift */,
-				ABA6BF132AFC600900915D29 /* SceneDelegate.swift */,
-				ABA6BF152AFC600900915D29 /* ViewController.swift */,
+				AB9837CC2B005B6A00A73F8E /* Screens */,
+				AB9837CF2B005BF100A73F8E /* Settings */,
 				ABA6BF172AFC600900915D29 /* Main.storyboard */,
 				ABA6BF1A2AFC600A00915D29 /* Assets.xcassets */,
 				ABA6BF1C2AFC600A00915D29 /* LaunchScreen.storyboard */,
@@ -253,7 +271,7 @@
 				};
 			};
 			buildConfigurationList = ABA6BF092AFC600900915D29 /* Build configuration list for PBXProject "ForDiscovery2.0" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -408,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABA6BF162AFC600900915D29 /* ViewController.swift in Sources */,
+				AB9837CE2B005BA500A73F8E /* SignUPVCViewController.swift in Sources */,
 				ABA6BF122AFC600900915D29 /* AppDelegate.swift in Sources */,
 				ABA6BF142AFC600900915D29 /* SceneDelegate.swift in Sources */,
 			);
@@ -502,7 +521,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -565,7 +584,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
