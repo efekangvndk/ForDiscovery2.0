@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HNl-Se-QUC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -16,202 +16,238 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail / User Name :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kS7-Ew-JGI" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="318" width="361" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.11372549830000001" green="0.28627452250000002" blue="0.65098041299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.58431375029999999" green="0.87058818339999999" blue="0.83529412749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password :" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="h3O-Il-1T4" customClass="HoshiTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="410" width="361" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="15"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
+                                        <color key="value" systemColor="systemCyanColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" systemColor="systemMintColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" red="0.58431375029999999" green="0.87058818339999999" blue="0.83529412749999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="foregroundColor">
+                                        <color key="value" systemColor="systemMintColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" red="0.11372549830000001" green="0.28627452250000002" blue="0.65098041299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" systemColor="systemYellowColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="123" y="-51"/>
+            <point key="canvasLocation" x="122.90076335877862" y="-51.408450704225352"/>
         </scene>
-        <!--SignUPVC View Controller-->
-        <scene sceneID="mjZ-W2-Lnp">
+        <!--Sign Up View Controller-->
+        <scene sceneID="ncD-yJ-PQx">
             <objects>
-                <viewController id="HNl-Se-QUC" customClass="SignUPVCViewController" customModule="ForDiscovery2_0" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rcK-3R-tUg">
+                <viewController id="lCd-Dv-DPI" customClass="SignUpViewController" customModule="ForDiscovery2_0" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jgM-Hd-B5Z">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fdi-wd-sag" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="281" width="361" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Mail :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mh4-d2-acZ" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="251" width="361" height="51"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="noR-T4-AMN"/>
+                                    <constraint firstAttribute="height" constant="51" id="YIg-hx-BmX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemTealColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LZ4-8t-B9Z" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="351" width="361" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ddL-Gt-rYU" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="332" width="361" height="44"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="Ymk-pY-GPJ"/>
+                                    <constraint firstAttribute="height" constant="44" id="GxJ-kf-xep"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemTealColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password Check : " textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BSC-o9-kEk" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="413" width="361" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password Check :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZrL-l4-QTb" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="412" width="361" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="TNH-R2-d1Y"/>
+                                    <constraint firstAttribute="height" constant="45" id="qOu-ry-odM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemMintColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SIGN-IN (1)" translatesAutoresizingMaskIntoConstraints="NO" id="p21-PL-adn">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="257"/>
-                            </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User Name:" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YwQ-ls-Vh5" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="476" width="361" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="User Name :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DIc-jg-7VI" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="488" width="361" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="k0A-Nn-KB9"/>
+                                    <constraint firstAttribute="height" constant="42" id="Q36-rZ-v10"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemMintColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Number (Oppsional) :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bBI-lJ-MkP" customClass="IsaoTextField" customModule="TextFieldEffects">
-                                <rect key="frame" x="16" y="532" width="361" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Number (Oppsional) :" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-30-IIB" customClass="AkiraTextField" customModule="TextFieldEffects">
+                                <rect key="frame" x="16" y="568" width="361" height="42"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="34" id="cHG-Cn-lCE"/>
+                                    <constraint firstAttribute="height" constant="42" id="yd5-s2-IzT"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemYellowColor"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="inactiveColor">
-                                        <color key="value" red="0.431117107" green="0.431117107" blue="0.431117107" alpha="0.88637329929999997" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="activeColor">
-                                        <color key="value" red="0.76862516110000001" green="0.22227393009999999" blue="0.28832046010000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" systemColor="systemTealColor"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gA-FD-Vvu" customClass="customButtons" customModule="ForDiscovery2_0" customModuleProvider="target">
-                                <rect key="frame" x="234" y="620" width="128" height="39"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTZ-nx-FQ8" customClass="customButtons" customModule="ForDiscovery2_0" customModuleProvider="target">
+                                <rect key="frame" x="16" y="656" width="126" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="39" id="JGT-KK-wyk"/>
+                                    <constraint firstAttribute="height" constant="50" id="RrY-U0-OmK"/>
+                                    <constraint firstAttribute="width" constant="126" id="zZR-UG-Tqy"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Back">
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.11372549830000001" green="0.28627452250000002" blue="0.65098041299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.59093741786405218" green="0.88935647551546393" blue="0.8566201801569312" alpha="0.44270833333333331" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsB-Fc-axi" customClass="customButtons" customModule="ForDiscovery2_0" customModuleProvider="target">
+                                <rect key="frame" x="260" y="656" width="117" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="117" id="WLV-6N-g79"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Save">
-                                    <fontDescription key="titleFontDescription" name="Rockwell-Bold" family="Rockwell" pointSize="17"/>
-                                    <color key="baseForegroundColor" red="0.76862516108247414" green="0.22227393005139146" blue="0.2883204601442329" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" red="0.42553962628865982" green="0.42473153409072079" blue="0.42288316801632225" alpha="0.27120535714285715" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
+                                    <color key="baseForegroundColor" red="0.11372549830000001" green="0.28627452250000002" blue="0.65098041299999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" red="0.59093741789999998" green="0.88935647549999997" blue="0.85662018019999997" alpha="0.44270833329999998" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SIGN-IN (2)" translatesAutoresizingMaskIntoConstraints="NO" id="XkJ-bo-3n2">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="216"/>
+                            </imageView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="d0E-Bl-LZC"/>
+                        <viewLayoutGuide key="safeArea" id="fKb-Fa-gJ8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Fdi-wd-sag" firstAttribute="trailing" secondItem="rcK-3R-tUg" secondAttribute="trailingMargin" id="54y-cB-o07"/>
-                            <constraint firstItem="YwQ-ls-Vh5" firstAttribute="trailing" secondItem="bBI-lJ-MkP" secondAttribute="trailing" id="E0U-gT-QDs"/>
-                            <constraint firstItem="YwQ-ls-Vh5" firstAttribute="leading" secondItem="bBI-lJ-MkP" secondAttribute="leading" id="FfE-3w-loG"/>
-                            <constraint firstItem="1gA-FD-Vvu" firstAttribute="top" secondItem="bBI-lJ-MkP" secondAttribute="bottom" constant="54" id="GFV-Au-68N"/>
-                            <constraint firstItem="BSC-o9-kEk" firstAttribute="top" secondItem="LZ4-8t-B9Z" secondAttribute="bottom" constant="28" id="HGq-le-ajV"/>
-                            <constraint firstItem="Fdi-wd-sag" firstAttribute="leading" secondItem="LZ4-8t-B9Z" secondAttribute="leading" id="K9c-jp-O9q"/>
-                            <constraint firstItem="BSC-o9-kEk" firstAttribute="trailing" secondItem="YwQ-ls-Vh5" secondAttribute="trailing" id="MPu-Pl-eWf"/>
-                            <constraint firstItem="YwQ-ls-Vh5" firstAttribute="top" secondItem="BSC-o9-kEk" secondAttribute="bottom" constant="29" id="PGd-q5-8gb"/>
-                            <constraint firstItem="Fdi-wd-sag" firstAttribute="leading" secondItem="rcK-3R-tUg" secondAttribute="leadingMargin" id="Qoy-b0-o7h"/>
-                            <constraint firstItem="Fdi-wd-sag" firstAttribute="trailing" secondItem="LZ4-8t-B9Z" secondAttribute="trailing" id="Sdj-6B-ETL"/>
-                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="bottom" secondItem="1gA-FD-Vvu" secondAttribute="bottom" constant="159" id="c4y-Ob-XvZ"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="centerX" secondItem="Fdi-wd-sag" secondAttribute="centerX" id="cP1-Ny-k7y"/>
-                            <constraint firstItem="LZ4-8t-B9Z" firstAttribute="trailing" secondItem="BSC-o9-kEk" secondAttribute="trailing" id="czQ-2p-Ipn"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" id="q4S-F3-Ziy"/>
-                            <constraint firstItem="d0E-Bl-LZC" firstAttribute="trailing" secondItem="1gA-FD-Vvu" secondAttribute="trailing" constant="31" id="q7o-qh-Uh4"/>
-                            <constraint firstItem="LZ4-8t-B9Z" firstAttribute="top" secondItem="Fdi-wd-sag" secondAttribute="bottom" constant="36" id="qA1-FW-76a"/>
-                            <constraint firstItem="1gA-FD-Vvu" firstAttribute="leading" secondItem="d0E-Bl-LZC" secondAttribute="leading" constant="234" id="u0U-Oj-zyp"/>
-                            <constraint firstItem="LZ4-8t-B9Z" firstAttribute="leading" secondItem="BSC-o9-kEk" secondAttribute="leading" id="u2K-93-DJk"/>
-                            <constraint firstItem="p21-PL-adn" firstAttribute="top" secondItem="rcK-3R-tUg" secondAttribute="topMargin" constant="-59" id="uCY-67-Jgt"/>
-                            <constraint firstItem="bBI-lJ-MkP" firstAttribute="top" secondItem="YwQ-ls-Vh5" secondAttribute="bottom" constant="22" id="yIX-w0-709"/>
-                            <constraint firstItem="BSC-o9-kEk" firstAttribute="leading" secondItem="YwQ-ls-Vh5" secondAttribute="leading" id="zl6-sX-gRi"/>
-                            <constraint firstItem="Fdi-wd-sag" firstAttribute="top" secondItem="p21-PL-adn" secondAttribute="bottom" constant="24" id="znd-i1-lKI"/>
+                            <constraint firstItem="LRE-30-IIB" firstAttribute="top" secondItem="DIc-jg-7VI" secondAttribute="bottom" constant="38" id="6HK-TN-F6X"/>
+                            <constraint firstItem="DIc-jg-7VI" firstAttribute="top" secondItem="ZrL-l4-QTb" secondAttribute="bottom" constant="31" id="6fw-uf-nmO"/>
+                            <constraint firstItem="mh4-d2-acZ" firstAttribute="trailing" secondItem="ddL-Gt-rYU" secondAttribute="trailing" id="AWh-RU-Nb3"/>
+                            <constraint firstItem="LRE-30-IIB" firstAttribute="leading" secondItem="QTZ-nx-FQ8" secondAttribute="leading" id="FlV-Ki-nbe"/>
+                            <constraint firstItem="XkJ-bo-3n2" firstAttribute="top" secondItem="jgM-Hd-B5Z" secondAttribute="topMargin" constant="-59" id="Hid-qV-Ibl"/>
+                            <constraint firstItem="QTZ-nx-FQ8" firstAttribute="top" secondItem="QsB-Fc-axi" secondAttribute="top" id="HwG-O9-nVo"/>
+                            <constraint firstItem="mh4-d2-acZ" firstAttribute="leading" secondItem="jgM-Hd-B5Z" secondAttribute="leadingMargin" id="IaS-cj-zeJ"/>
+                            <constraint firstItem="LRE-30-IIB" firstAttribute="trailing" secondItem="QsB-Fc-axi" secondAttribute="trailing" id="JN3-oa-ijS"/>
+                            <constraint firstItem="DIc-jg-7VI" firstAttribute="leading" secondItem="LRE-30-IIB" secondAttribute="leading" id="NEI-mz-wxB"/>
+                            <constraint firstItem="QTZ-nx-FQ8" firstAttribute="top" secondItem="LRE-30-IIB" secondAttribute="bottom" constant="46" id="OBQ-9J-WEl"/>
+                            <constraint firstItem="ZrL-l4-QTb" firstAttribute="trailing" secondItem="DIc-jg-7VI" secondAttribute="trailing" id="PGO-RB-seb"/>
+                            <constraint firstItem="mh4-d2-acZ" firstAttribute="leading" secondItem="ddL-Gt-rYU" secondAttribute="leading" id="PH1-97-7qt"/>
+                            <constraint firstItem="fKb-Fa-gJ8" firstAttribute="bottom" secondItem="QsB-Fc-axi" secondAttribute="bottom" constant="110" id="Rk8-j8-dhj"/>
+                            <constraint firstItem="ddL-Gt-rYU" firstAttribute="trailing" secondItem="ZrL-l4-QTb" secondAttribute="trailing" id="SRZ-dP-3d9"/>
+                            <constraint firstItem="ZrL-l4-QTb" firstAttribute="top" secondItem="ddL-Gt-rYU" secondAttribute="bottom" constant="36" id="bcQ-oE-Xxm"/>
+                            <constraint firstItem="ddL-Gt-rYU" firstAttribute="top" secondItem="mh4-d2-acZ" secondAttribute="bottom" constant="30" id="l2r-On-4Rf"/>
+                            <constraint firstItem="ZrL-l4-QTb" firstAttribute="leading" secondItem="DIc-jg-7VI" secondAttribute="leading" id="lcx-R0-cdd"/>
+                            <constraint firstItem="XkJ-bo-3n2" firstAttribute="centerX" secondItem="mh4-d2-acZ" secondAttribute="centerX" id="m91-zy-gdP"/>
+                            <constraint firstItem="DIc-jg-7VI" firstAttribute="trailing" secondItem="LRE-30-IIB" secondAttribute="trailing" id="rfm-8T-h03"/>
+                            <constraint firstItem="mh4-d2-acZ" firstAttribute="top" secondItem="XkJ-bo-3n2" secondAttribute="bottom" constant="35" id="sVl-B8-UQy"/>
+                            <constraint firstItem="mh4-d2-acZ" firstAttribute="trailing" secondItem="jgM-Hd-B5Z" secondAttribute="trailingMargin" id="trm-43-iVa"/>
+                            <constraint firstItem="XkJ-bo-3n2" firstAttribute="leading" secondItem="fKb-Fa-gJ8" secondAttribute="leading" id="w8E-vS-wvb"/>
+                            <constraint firstItem="fKb-Fa-gJ8" firstAttribute="bottom" secondItem="QTZ-nx-FQ8" secondAttribute="bottom" constant="112" id="wsQ-Uo-fUj"/>
+                            <constraint firstItem="ddL-Gt-rYU" firstAttribute="leading" secondItem="ZrL-l4-QTb" secondAttribute="leading" id="yHv-hc-Xml"/>
                         </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hKW-lF-mnI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x0d-tu-qDA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="922.90076335877859" y="-670.42253521126759"/>
+            <point key="canvasLocation" x="1006.8702290076335" y="-567.6056338028169"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="BSC-o9-kEk">
-            <size key="intrinsicContentSize" width="145" height="34.333333333333336"/>
-        </designable>
-        <designable name="Fdi-wd-sag">
-            <size key="intrinsicContentSize" width="66.666666666666671" height="34.333333333333336"/>
-        </designable>
-        <designable name="LZ4-8t-B9Z">
-            <size key="intrinsicContentSize" width="90.666666666666671" height="34.333333333333336"/>
-        </designable>
-        <designable name="YwQ-ls-Vh5">
-            <size key="intrinsicContentSize" width="97.333333333333329" height="34.333333333333336"/>
-        </designable>
-        <designable name="bBI-lJ-MkP">
-            <size key="intrinsicContentSize" width="168" height="34.333333333333336"/>
-        </designable>
-    </designables>
     <resources>
-        <image name="SIGN-IN (1)" width="21600" height="10800"/>
+        <image name="SIGN-IN (2)" width="21600" height="10800"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

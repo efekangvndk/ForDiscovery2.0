@@ -15,7 +15,7 @@ class customButtons : UIButton {
         setConfig()
     }
     func setConfig(){
-        layer.borderColor = UIColor.brown.cgColor
+        layer.borderColor = UIColor.blue.cgColor
         layer.borderWidth = 2
         layer.cornerRadius = 6.0
     }

@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2265185D92FF07CFB12AC5CD /* Pods_ForDiscovery2_0.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8109D8679357C75999A9843A /* Pods_ForDiscovery2_0.framework */; };
 		22F3A6D6595B5EEEB7F0CB39 /* Pods_ForDiscovery2_0Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 929547BB2B30F4BA26C21616 /* Pods_ForDiscovery2_0Tests.framework */; };
-		AB9837CE2B005BA500A73F8E /* SignUPVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */; };
 		AB9E9BEB2B00FA93008274D8 /* Inlander Rough.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E9BEA2B00FA93008274D8 /* Inlander Rough.ttf */; };
 		AB9E9BEC2B00FA93008274D8 /* Inlander Rough.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E9BEA2B00FA93008274D8 /* Inlander Rough.ttf */; };
 		AB9E9BED2B00FA93008274D8 /* Inlander Rough.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB9E9BEA2B00FA93008274D8 /* Inlander Rough.ttf */; };
@@ -25,6 +24,7 @@
 		ABA6BF292AFC600A00915D29 /* ForDiscovery2_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF282AFC600A00915D29 /* ForDiscovery2_0Tests.swift */; };
 		ABA6BF332AFC600A00915D29 /* ForDiscovery2_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF322AFC600A00915D29 /* ForDiscovery2_0UITests.swift */; };
 		ABA6BF352AFC600A00915D29 /* ForDiscovery2_0UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA6BF342AFC600A00915D29 /* ForDiscovery2_0UITestsLaunchTests.swift */; };
+		ABAE2C1E2B018DA300B3E8B9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABAE2C1D2B018DA300B3E8B9 /* SignUpViewController.swift */; };
 		DB1C0D69AE9CA2F962286AA1 /* Pods_ForDiscovery2_0_ForDiscovery2_0UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3502BB756075741B4B97C3C5 /* Pods_ForDiscovery2_0_ForDiscovery2_0UITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,6 @@
 		8109D8679357C75999A9843A /* Pods_ForDiscovery2_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForDiscovery2_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		929547BB2B30F4BA26C21616 /* Pods_ForDiscovery2_0Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForDiscovery2_0Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA9A5727E385C368F225377 /* Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig"; path = "Target Support Files/Pods-ForDiscovery2.0-ForDiscovery2.0UITests/Pods-ForDiscovery2.0-ForDiscovery2.0UITests.debug.xcconfig"; sourceTree = "<group>"; };
-		AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUPVCViewController.swift; sourceTree = "<group>"; };
 		AB9E9BEA2B00FA93008274D8 /* Inlander Rough.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inlander Rough.ttf"; sourceTree = "<group>"; };
 		AB9E9BF12B0101A8008274D8 /* UICustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomButton.swift; sourceTree = "<group>"; };
 		ABA6BF0E2AFC600900915D29 /* ForDiscovery2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForDiscovery2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +65,7 @@
 		ABA6BF2E2AFC600A00915D29 /* ForDiscovery2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForDiscovery2.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABA6BF322AFC600A00915D29 /* ForDiscovery2_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForDiscovery2_0UITests.swift; sourceTree = "<group>"; };
 		ABA6BF342AFC600A00915D29 /* ForDiscovery2_0UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForDiscovery2_0UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABAE2C1D2B018DA300B3E8B9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		CB765870D466FE927D50CE73 /* Pods-ForDiscovery2.0Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDiscovery2.0Tests.release.xcconfig"; path = "Target Support Files/Pods-ForDiscovery2.0Tests/Pods-ForDiscovery2.0Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D206ACEFB538FDE80C264DC3 /* Pods-ForDiscovery2.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDiscovery2.0.release.xcconfig"; path = "Target Support Files/Pods-ForDiscovery2.0/Pods-ForDiscovery2.0.release.xcconfig"; sourceTree = "<group>"; };
 		D96A49465D118A224612B5D4 /* Pods-ForDiscovery2.0Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForDiscovery2.0Tests.debug.xcconfig"; path = "Target Support Files/Pods-ForDiscovery2.0Tests/Pods-ForDiscovery2.0Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,8 +127,8 @@
 		AB9837CC2B005B6A00A73F8E /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				AB9837CD2B005BA500A73F8E /* SignUPVCViewController.swift */,
 				ABA6BF152AFC600900915D29 /* ViewController.swift */,
+				ABAE2C1D2B018DA300B3E8B9 /* SignUpViewController.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -456,9 +456,9 @@
 			files = (
 				AB9E9BF22B0101A8008274D8 /* UICustomButton.swift in Sources */,
 				ABA6BF162AFC600900915D29 /* ViewController.swift in Sources */,
-				AB9837CE2B005BA500A73F8E /* SignUPVCViewController.swift in Sources */,
 				ABA6BF122AFC600900915D29 /* AppDelegate.swift in Sources */,
 				ABA6BF142AFC600900915D29 /* SceneDelegate.swift in Sources */,
+				ABAE2C1E2B018DA300B3E8B9 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
